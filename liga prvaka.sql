@@ -645,8 +645,11 @@ VALUES
 
 ('MAT00000004', 'REF00000010', 'Main Referee'),
 ('MAT00000004', 'REF00000011', 'Assistant Referee'),
-('MAT00000004', 'REF00000012', 'Assistant Referee');
+('MAT00000004', 'REF00000012', 'Assistant Referee'),
 
+('MAT00000005', 'REF00000013', 'Main Referee'),
+('MAT00000005', 'REF00000014', 'Assistant Referee'),
+('MAT00000005', 'REF00000015', 'Assistant Referee');
 
 -- Display data from the Organizacija table
 SELECT * FROM Organizacija;
