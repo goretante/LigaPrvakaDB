@@ -252,6 +252,8 @@ VALUES
 ('PLR00000093', 'Adrian', 'San Miguel', 'Goalkeeper', '1987-01-03', 'Spain'),
 ('PLR00000094', 'Harvey', 'Davies', 'Goalkeeper', '2003-09-03', 'England'),
 ('PLR00000095', 'Konstantinos', 'Tsimikas', 'Defender', '1996-05-12', 'Greece'),
+('PLR00000112', 'James', 'Milner', 'Midfielder', '1986-01-04', 'England'),
+('PLR00000113', 'Alex', 'Oxlade-Chamberlain', 'Midfielder', '1993-08-15', 'England'),
 
 -- REAL MADRID
 ('PLR00000096', 'Thibaut', 'Courtois', 'Goalkeeper', '1992-05-11', 'Belgium'),
@@ -269,8 +271,9 @@ VALUES
 ('PLR00000108', 'Rodrygo', 'Goes', 'Forward', '2001-01-09', 'Brazil'),
 ('PLR00000109', 'Andriy', 'Lunin', 'Goalkeeper', '1999-02-11', 'Ukraine'),
 ('PLR00000110', 'Diego', 'Altube', 'Goalkeeper', '2000-02-22', 'Spain'),
-('PLR00000111', 'Marcelo', 'Vieira', 'Defender', '1988-05-12', 'Brazil');
-
+('PLR00000111', 'Marcelo', 'Vieira', 'Defender', '1988-05-12', 'Brazil'),
+('PLR00000114', 'Álvaro', 'Odriozola', 'Defender', '1995-12-14', 'Spain'),
+('PLR00000115', 'Francisco', 'Suárez', 'Midfielder', '1992-04-21', 'Spain');
 
 -- TRENERI
 INSERT INTO Trener (ID_trenera, ime, prezime, datum_rodenja, nacionalnost)
@@ -287,8 +290,8 @@ VALUES
 ('MAT00000001', '2021-04-07 19:00:00', 'Quarterfinal', 5, 'ORG00000001'),
 ('MAT00000002', '2021-04-13 19:00:00', 'Quarterfinal', 1, 'ORG00000001'),
 ('MAT00000003', '2021-04-06 19:00:00', 'Quarterfinal', 3, 'ORG00000001'),
-('MAT00000004', '2021-04-14 19:00:00', 'Quarterfinal', 3, 'ORG00000001');
-
+('MAT00000004', '2021-04-14 19:00:00', 'Quarterfinal', 3, 'ORG00000001'),
+('MAT00000005', '2021-04-06 20:00:00', 'Quarterfinal', 4, 'ORG00000001');
 
 -- SUCI
 INSERT INTO Sudac (ID_suca, ime, prezime, datum_rodenja, nacionalnost, ID_organizacije)
@@ -304,7 +307,10 @@ VALUES
 ('REF00000009', 'Sebastian', 'Gheorghe', '1976-03-07', 'Romania', 'ORG00000001'),
 ('REF00000010', 'Carlos', 'del Cerro Grande', '1976-03-13', 'Spain', 'ORG00000001'),
 ('REF00000011', 'Juan Carlos', 'Yuste', '1975-09-25', 'Spain', 'ORG00000001'),
-('REF00000012', 'Roberto Alonso', 'Fernández', '1976-09-18', 'Spain', 'ORG00000001');
+('REF00000012', 'Roberto Alonso', 'Fernández', '1976-09-18', 'Spain', 'ORG00000001'),
+('REF00000013', 'Felix', 'Brych', '1975-08-03', 'Germany', 'ORG00000001'),
+('REF00000014', 'Mark', 'Borsch', '1977-03-29', 'Germany', 'ORG00000001'),
+('REF00000015', 'Stefan', 'Lupp', '1978-09-09', 'Germany', 'ORG00000001');
 
 
 
@@ -417,6 +423,8 @@ VALUES
 ('TIM00000005', 'PLR00000093', '2019-08-05', NULL), 			-- Liverpool, Adrian
 ('TIM00000005', 'PLR00000094', '2020-11-01', '2023-06-30'), 	-- Liverpool, Harvey Davies
 ('TIM00000005', 'PLR00000095', '2020-08-11', NULL), 			-- Liverpool, Konstantinos Tsimikas
+('TIM00000005', 'PLR00000112', '2015-06-04', '2023-06-30'),     -- Liverpool, James Milner
+('TIM00000005', 'PLR00000113', '2017-08-31', '2023-08-11'),     -- Liverpool, Alex Oxlade-Chamberlain
 
 -- IGRAČI REALA
 ('TIM00000006', 'PLR00000096', '2018-08-01', NULL), 			-- Real Madrid, Thibaut Courtois
@@ -435,7 +443,8 @@ VALUES
 ('TIM00000006', 'PLR00000109', '2018-07-22', NULL), 			-- Real Madrid, Andriy Lunin
 ('TIM00000006', 'PLR00000110', '2020-09-21', '2022-07-17'), 	-- Real Madrid, Diego Altube
 ('TIM00000006', 'PLR00000111', '2007-01-01', '2022-06-12'); 	-- Real Madrid, Marcelo
-
+('TIM00000006', 'PLR00000114', '2018-07-18', '2023-08-31'),     -- Real Madrid, Álvaro Odriozola
+('TIM00000006', 'PLR00000115', '2013-06-27', '2022-07-06');     -- Real Madrid, Isco
 
 -- VEZA IZMEĐU TIMOVA I TRENERA
 INSERT INTO TimTrener (ID_tima, ID_trenera, datum_pocetka, datum_zavrsetka)
@@ -459,7 +468,10 @@ VALUES
 ('TIM00000004', 'MAT00000003', FALSE, TRUE),
 
 ('TIM00000003', 'MAT00000004', FALSE, TRUE),
-('TIM00000004', 'MAT00000004', TRUE, FALSE);
+('TIM00000004', 'MAT00000004', TRUE, FALSE),
+
+('TIM00000005', 'MAT00000005', FALSE, TRUE),
+('TIM00000006', 'MAT00000005', TRUE, FALSE);
 
 
 
@@ -584,7 +596,37 @@ VALUES
 ('PLR00000068', 'MAT00000004', 0, 0, 0, 0, 0, 0, 0, 0, '01:08:00', '01:30:00'),		-- Manchester City, Giovanni Reyna
 ('PLR00000076', 'MAT00000004', 0, 0, 0, 0, 0, 0, 0, 0, '01:21:00', '01:30:00'),		-- Manchester City, Steffen Tigges 
 ('PLR00000077', 'MAT00000004', 0, 0, 0, 0, 1, 0, 0, 0, '01:16:00', '01:30:00'),		-- Manchester City, Thorgan Hazard
-('PLR00000078', 'MAT00000004', 0, 0, 0, 0, 0, 0, 0, 0, '01:21:00', '01:30:00');		-- Manchester City, Julian Brandt
+('PLR00000078', 'MAT00000004', 0, 0, 0, 0, 0, 0, 0, 0, '01:21:00', '01:30:00'),		-- Manchester City, Julian Brandt
+
+-- UTAKMICA 6.4.'21. RMA - LIVERPOOL
+('PLR00000096', 'MAT00000005', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thibaut Courtois
+('PLR00000097', 'MAT00000005', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Lucas Vázquez
+('PLR00000098', 'MAT00000005', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Éder Militão
+('PLR00000099', 'MAT00000005', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Nacho Fernández
+('PLR00000100', 'MAT00000005', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ferland Mendy
+('PLR00000101', 'MAT00000005', 0, 1, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Luka Modrić
+('PLR00000102', 'MAT00000005', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Casemiro
+('PLR00000103', 'MAT00000005', 0, 1, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Toni Kroos
+('PLR00000104', 'MAT00000005', 1, 1, 2, 0, 0, 0, 0, 0, '00:00:00', '01:10:00'),  -- Marco Asensio
+('PLR00000105', 'MAT00000005', 0, 2, 3, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Karim Benzema
+('PLR00000106', 'MAT00000005', 2, 3, 4, 0, 0, 0, 0, 0, '00:00:00', '01:25:00'),  -- Vinícius Júnior
+('PLR00000107', 'MAT00000005', 0, 0, 0, 0, 1, 0, 0, 0, '01:10:00', '01:30:00'),  -- Federico Valverde ušao umjesto Marco Asensio
+('PLR00000108', 'MAT00000005', 0, 0, 0, 0, 0, 0, 0, 0, '01:25:00', '01:30:00'),  -- Rodrygo ušao umjesto Vinícius Júnior
+
+('PLR00000079', 'MAT00000005', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Alisson Ramses Becker
+('PLR00000080', 'MAT00000005', 0, 0, 1, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Andrew Robertson
+('PLR00000081', 'MAT00000005', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:22:00'),  -- Ozan Kabak
+('PLR00000082', 'MAT00000005', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Nathaniel Phillips
+('PLR00000083', 'MAT00000005', 0, 0, 1, 0, 2, 1, 0, 0, '00:00:00', '01:30:00'),  -- Trent Alexander-Arnold
+('PLR00000084', 'MAT00000005', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Georginio Wijnaldum
+('PLR00000085', 'MAT00000005', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Fabinho Tavares
+('PLR00000086', 'MAT00000005', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '00:42:00'),  -- Naby Keïta
+('PLR00000087', 'MAT00000005', 0, 1, 2, 0, 2, 1, 0, 0, '00:00:00', '01:30:00'),  -- Sadio Mané
+('PLR00000088', 'MAT00000005', 0, 1, 2, 0, 0, 0, 0, 0, '00:00:00', '01:21:00'),  -- Diogo Jota
+('PLR00000089', 'MAT00000005', 1, 1, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Mohamed Salah
+('PLR00000090', 'MAT00000005', 0, 0, 1, 0, 1, 0, 0, 0, '00:42:00', '01:30:00'),  -- Thiago Alcântara ušao umjesto Naby Keïta
+('PLR00000092', 'MAT00000005', 0, 0, 1, 0, 0, 1, 0, 0, '01:21:00', '01:30:00'),  -- Roberto Firmino ušao umjesto Diogo Jota
+('PLR00000091', 'MAT00000005', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00');  -- Xherdan Shaqiri ušao umjesto Ozan Kabak
 
 -- VEZA IZMEĐU UTAKMICA I SUDACA
 INSERT INTO UtakmicaSudac (ID_utakmice, ID_suca, uloga)
