@@ -237,7 +237,10 @@ VALUES
 -- TRENERI
 INSERT INTO Trener (ID_trenera, ime, prezime, datum_rodenja, nacionalnost)
 VALUES
-('COA00000001', 'Pep', 'Guardiola', '1971-01-18', 'Spanish');
+('COA00000001', 'Hans-Dieter', 'Flick', '1965-02-24', 'Germany'),
+('COA00000002', 'Mauricio', 'Pochettino', '1972-03-02', 'Argentina'),
+('COA00000003', 'Pep', 'Guardiola', '1971-01-18', 'Spain'),
+('COA00000004', 'Edin', 'Terzić', '1982-08-30', 'Germany');
 
 
 -- UTAKMICE
@@ -361,7 +364,10 @@ VALUES
 -- VEZA IZMEĐU TIMOVA I TRENERA
 INSERT INTO TimTrener (ID_tima, ID_trenera, datum_pocetka, datum_zavrsetka)
 VALUES
-('TIM00000001', 'COA00000001', '2016-2024');
+('TIM00000001', 'COA00000001', '2019-11-03', '2021-07-01'),
+('TIM00000002', 'COA00000002', '2021-01-02', '2022-07-05'),
+('TIM00000003', 'COA00000003', '2016-07-01', NULL),
+('TIM00000004', 'COA00000004', '2020-12-29', NULL);
 
 
 -- IZMEĐU TIMOVA I UTAKMICA
