@@ -232,7 +232,45 @@ VALUES
 ('PLR00000074', 'Nico', 'Schulz', 'Defender', '1993-04-01', 'Germany'),
 ('PLR00000076', 'Steffen', 'Tigges', 'Forward', '1998-07-31', 'Germany'),
 ('PLR00000077', 'Thorgan', 'Hazard', 'Forward', '1993-03-29', 'Belgium'),
-('PLR00000078', 'Julian', 'Brandt', 'Midfielder', '1996-05-02', 'Germany');
+('PLR00000078', 'Julian', 'Brandt', 'Midfielder', '1996-05-02', 'Germany'),
+
+-- LIVERPOOL
+('PLR00000079', 'Alisson Ramses', 'Becker', 'Goalkeeper', '1992-10-02', 'Brazil'),
+('PLR00000080', 'Andrew', 'Robertson', ' Defender', '1994-03-11', 'Scotland'),
+('PLR00000081', 'Ozan', 'Kabak', 'Defender', '2000-03-25', 'Turkey'),
+('PLR00000082', 'Nathaniel', 'Phillips', 'Defender', '1997-03-21', 'England'),
+('PLR00000083', 'Trent', 'Alexander-Arnold', 'Defender', '1998-10-07', 'England'),
+('PLR00000084', 'Georginio', 'Wijnaldum', 'Midfielder', '1990-11-11', 'Netherlands'),
+('PLR00000085', 'Fabinho', 'Tavares', 'Midfielder', '1993-10-23', 'Brazil'),
+('PLR00000086', 'Naby', 'Keïta', 'Midfielder', '1995-02-10', 'Guinea'),
+('PLR00000087', 'Sadio', 'Mané', 'Forward', '1992-04-10', 'Senegal'),
+('PLR00000088', 'Diogo', 'Jota', 'Forward', '1996-12-04', 'Portugal'),
+('PLR00000089', 'Mohamed', 'Salah', 'Forward', '1992-06-15', 'Egypt'),
+('PLR00000090', 'Thiago', 'Alcântara', 'Midfielder', '1991-04-11', 'Spain'),
+('PLR00000091', 'Xherdan', 'Shaqiri', 'Midfielder', '1991-10-10', 'Switzerland'),
+('PLR00000092', 'Roberto', 'Firmino', 'Forward', '1991-10-02', 'Brazil'),
+('PLR00000093', 'Adrian', 'San Miguel', 'Goalkeeper', '1987-01-03', 'Spain'),
+('PLR00000094', 'Harvey', 'Davies', 'Goalkeeper', '2003-09-03', 'England'),
+('PLR00000095', 'Konstantinos', 'Tsimikas', 'Defender', '1996-05-12', 'Greece'),
+
+-- REAL MADRID
+('PLR00000096', 'Thibaut', 'Courtois', 'Goalkeeper', '1992-05-11', 'Belgium'),
+('PLR00000097', 'Lucas', 'Vázquez', 'Defender', '1991-07-01', 'Spain'),
+('PLR00000098', 'Éder', 'Militão', 'Defender', '1998-01-18', 'Brazil'),
+('PLR00000099', 'Nacho', 'Fernández', 'Defender', '1990-01-18', 'Spain'),
+('PLR00000100', 'Ferland', 'Mendy', 'Defender', '1995-06-08', 'France'),
+('PLR00000101', 'Luka', 'Modrić', 'Midfielder', '1985-09-09', 'Croatia'),
+('PLR00000102', 'Casemiro', 'Tavares', 'Midfielder', '1992-02-23', 'Brazil'),
+('PLR00000103', 'Toni', 'Kroos', 'Midfielder', '1990-01-04', 'Germany'),
+('PLR00000104', 'Marco', 'Asensio', 'Forward', '1996-01-21', 'Spain'),
+('PLR00000105', 'Karim', 'Benzema', 'Forward', '1987-12-19', 'France'),
+('PLR00000106', 'Vinícius', 'Júnior', 'Forward', '2000-07-12', 'Brazil'),
+('PLR00000107', 'Federico', 'Valverde', 'Midfielder', '1998-07-22', 'Uruguay'),
+('PLR00000108', 'Rodrygo', 'Goes', 'Forward', '2001-01-09', 'Brazil'),
+('PLR00000109', 'Andriy', 'Lunin', 'Goalkeeper', '1999-02-11', 'Ukraine'),
+('PLR00000110', 'Diego', 'Altube', 'Goalkeeper', '2000-02-22', 'Spain'),
+('PLR00000111', 'Marcelo', 'Vieira', 'Defender', '1988-05-12', 'Brazil');
+
 
 -- TRENERI
 INSERT INTO Trener (ID_trenera, ime, prezime, datum_rodenja, nacionalnost)
@@ -360,6 +398,44 @@ VALUES
 ('TIM00000004', 'PLR00000076', '2019-07-01', '2022-07-01'),		-- Borrusia Dortmund, Steffen Tigges
 ('TIM00000004', 'PLR00000077', '2019-07-01', '2023-07-06'),		-- Borrusia Dortmund, Thorgan Hazard
 ('TIM00000004', 'PLR00000078', '2019-07-01', NULL),				-- Borrusia Dortmund, Julian Brandt
+
+-- IGRAČI LIVERPOOLA
+('TIM00000005', 'PLR00000079', '2018-07-19', NULL), 			-- Liverpool, Alisson Ramses Becker
+('TIM00000005', 'PLR00000080', '2017-07-21', NULL), 			-- Liverpool, Andrew Robertson
+('TIM00000005', 'PLR00000081', '2021-02-01', '2021-06-30'), 	-- Liverpool, Ozan Kabak
+('TIM00000005', 'PLR00000082', '2016-07-01', NULL), 			-- Liverpool, Nathaniel Phillips
+('TIM00000005', 'PLR00000083', '2016-10-25', NULL), 			-- Liverpool, Trent Alexander-Arnold
+('TIM00000005', 'PLR00000084', '2016-07-22', '2021-06-30'), 	-- Liverpool, Georginio Wijnaldum
+('TIM00000005', 'PLR00000085', '2018-07-01', '2023-07-30'), 	-- Liverpool, Fabinho
+('TIM00000005', 'PLR00000086', '2018-07-01', '2023-06-30'), 	-- Liverpool, Naby Keita
+('TIM00000005', 'PLR00000087', '2016-06-28', '2022-06-22'), 	-- Liverpool, Sadio Mane
+('TIM00000005', 'PLR00000088', '2020-09-19', NULL), 			-- Liverpool, Diogo Jota
+('TIM00000005', 'PLR00000089', '2017-07-01', NULL), 			-- Liverpool, Mohamed Salah
+('TIM00000005', 'PLR00000090', '2020-09-18', NULL), 			-- Liverpool, Thiago Alcantara
+('TIM00000005', 'PLR00000091', '2018-07-13', '2021-08-23'), 	-- Liverpool, Xherdan Shaqiri
+('TIM00000005', 'PLR00000092', '2015-07-01', '2023-07-03'), 	-- Liverpool, Roberto Firmino
+('TIM00000005', 'PLR00000093', '2019-08-05', NULL), 			-- Liverpool, Adrian
+('TIM00000005', 'PLR00000094', '2020-11-01', '2023-06-30'), 	-- Liverpool, Harvey Davies
+('TIM00000005', 'PLR00000095', '2020-08-11', NULL), 			-- Liverpool, Konstantinos Tsimikas
+
+-- IGRAČI REALA
+('TIM00000006', 'PLR00000096', '2018-08-01', NULL), 			-- Real Madrid, Thibaut Courtois
+('TIM00000006', 'PLR00000097', '2015-07-01', NULL), 			-- Real Madrid, Lucas Vázquez
+('TIM00000006', 'PLR00000098', '2019-07-14', NULL), 			-- Real Madrid, Éder Militão
+('TIM00000006', 'PLR00000099', '2001-07-01', NULL), 			-- Real Madrid, Nacho Fernández
+('TIM00000006', 'PLR00000100', '2019-07-01', NULL), 			-- Real Madrid, Ferland Mendy
+('TIM00000006', 'PLR00000101', '2012-08-27', NULL), 			-- Real Madrid, Luka Modrić
+('TIM00000006', 'PLR00000102', '2013-07-01', '2022-08-21'), 	-- Real Madrid, Casemiro
+('TIM00000006', 'PLR00000103', '2014-07-17', NULL), 			-- Real Madrid, Toni Kroos
+('TIM00000006', 'PLR00000104', '2015-12-01', '2023-07-05'), 	-- Real Madrid, Marco Asensio
+('TIM00000006', 'PLR00000105', '2009-07-01', '2023-06-30'), 	-- Real Madrid, Karim Benzema
+('TIM00000006', 'PLR00000106', '2018-07-20', NULL), 			-- Real Madrid, Vinícius Júnior
+('TIM00000006', 'PLR00000107', '2016-07-22', NULL), 			-- Real Madrid, Federico Valverde
+('TIM00000006', 'PLR00000108', '2019-06-15', NULL), 			-- Real Madrid, Rodrygo
+('TIM00000006', 'PLR00000109', '2018-07-22', NULL), 			-- Real Madrid, Andriy Lunin
+('TIM00000006', 'PLR00000110', '2020-09-21', '2022-07-17'), 	-- Real Madrid, Diego Altube
+('TIM00000006', 'PLR00000111', '2007-01-01', '2022-06-12'); 	-- Real Madrid, Marcelo
+
 
 -- VEZA IZMEĐU TIMOVA I TRENERA
 INSERT INTO TimTrener (ID_tima, ID_trenera, datum_pocetka, datum_zavrsetka)
