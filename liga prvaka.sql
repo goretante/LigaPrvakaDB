@@ -273,7 +273,45 @@ VALUES
 ('PLR00000110', 'Diego', 'Altube', 'Goalkeeper', '2000-02-22', 'Spain'),
 ('PLR00000111', 'Marcelo', 'Vieira', 'Defender', '1988-05-12', 'Brazil'),
 ('PLR00000114', 'Álvaro', 'Odriozola', 'Defender', '1995-12-14', 'Spain'),
-('PLR00000115', 'Francisco', 'Suárez', 'Midfielder', '1992-04-21', 'Spain');
+('PLR00000115', 'Francisco', 'Suárez', 'Midfielder', '1992-04-21', 'Spain'),
+
+-- CHELSEA
+('PLR00000116', 'Édouard', 'Mendy', 'Goalkeeper', '1992-03-01', 'Senegal'),
+('PLR00000117', 'Antonio', 'Rüdiger', 'Defender', '1993-03-03', 'Germany'),
+('PLR00000118', 'Thiago', 'Silva', 'Defender', '1984-09-22', 'Brazil'),
+('PLR00000119', 'César', 'Azpilicueta', 'Defender', '1989-08-28', 'Spain'),
+('PLR00000120', 'Andreas', 'Christensen', 'Defender', '1996-04-10', 'Denmark'),
+('PLR00000121', 'Ben', 'Chilwell', 'Defender', '1996-12-21', 'England'),
+('PLR00000122', 'Reece', 'James', 'Defender', '1999-12-08', 'England'),
+('PLR00000123', 'Jorginho', 'Frello', 'Midfielder', '1991-12-20', 'Italy'),
+('PLR00000124', 'Ngolo', 'Kanté', 'Midfielder', '1991-03-29', 'France'),
+('PLR00000125', 'Mateo', 'Kovačić', 'Midfielder', '1994-05-06', 'Croatia'),
+('PLR00000126', 'Mason', 'Mount', 'Midfielder', '1999-01-10', 'England'),
+('PLR00000127', 'Kai', 'Havertz', 'Midfielder', '1999-06-11', 'Germany'),
+('PLR00000128', 'Christian', 'Pulisic', 'Forward', '1998-09-18', 'United States of America'),
+('PLR00000129', 'Timo', 'Werner', 'Forward', '1996-03-06', 'Germany'),
+('PLR00000130', 'Olivier', 'Giroud', 'Forward', '1986-09-30', 'France'),
+('PLR00000131', 'Hakim', 'Ziyech', 'Midfielder', '1993-03-19', 'Morocco'),
+('PLR00000132', 'Callum', 'Hudson-Odoi', 'Midfielder', '2000-11-07', 'England'),
+('PLR00000133', 'Kepa', 'Arrizabalaga', 'Goalkeeper', '1994-10-03', 'Spain'),
+
+-- PORTO
+('PLR00000134', 'Agustín', 'Marchesín', 'Goalkeeper', '1988-03-16', 'Argentina'),
+('PLR00000135', 'Pepe', 'Ferreira', 'Defender', '1983-02-26', 'Portugal'),
+('PLR00000136', 'Chancel', 'Mbemba', 'Defender', '1994-08-08', 'DR Congo'),
+('PLR00000137', 'Zaidu', 'Sanusi', 'Defender', '1997-06-13', 'Nigeria'),
+('PLR00000138', 'Wilson', 'Manafá', 'Defender', '1994-07-23', 'Portugal'),
+('PLR00000139', 'Mateus', 'Uribe', 'Midfielder', '1991-03-21', 'Colombia'),
+('PLR00000140', 'Sérgio', 'Oliveira', 'Midfielder', '1992-06-02', 'Portugal'),
+('PLR00000141', 'Jesús', 'Corona', 'Midfielder', '1993-01-06', 'Mexico'),
+('PLR00000142', 'Otávio', 'Monteiro', 'Midfielder', '1995-02-09', 'Portugal'),
+('PLR00000143', 'Moussa', 'Marega', 'Forward', '1991-04-14', 'Mali'),
+('PLR00000144', 'Luis', 'Díaz', 'Forward', '1997-01-13', 'Colombia'),
+('PLR00000145', 'Mehdi', 'Taremi', 'Forward', '1992-07-18', 'Iran'),
+('PLR00000146', 'Cláudio', 'Ramos', 'Goalkeeper', '1991-11-16', 'Portugal'),
+('PLR00000147', 'Iván', 'Marcano', 'Defender', '1987-06-23', 'Spain'),
+('PLR00000148', 'Fábio', 'Vieira', 'Midfielder', '2000-05-30', 'Portugal'),
+('PLR00000149', 'Toni', 'Martínez', 'Forward', '1997-06-30', 'Spain');
 
 -- TRENERI
 INSERT INTO Trener (ID_trenera, ime, prezime, datum_rodenja, nacionalnost)
@@ -281,37 +319,79 @@ VALUES
 ('COA00000001', 'Hans-Dieter', 'Flick', '1965-02-24', 'Germany'),
 ('COA00000002', 'Mauricio', 'Pochettino', '1972-03-02', 'Argentina'),
 ('COA00000003', 'Pep', 'Guardiola', '1971-01-18', 'Spain'),
-('COA00000004', 'Edin', 'Terzić', '1982-08-30', 'Germany');
+('COA00000004', 'Edin', 'Terzić', '1982-08-30', 'Germany'),
+('COA00000005', 'Jürgen', 'Klopp', '1967-06-16', 'Germany'),
+('COA00000006', 'Zinedine', 'Zidane', '1972-06-23', 'France'),
+('COA00000007', 'Thomas', 'Tuchel', '1973-08-29', 'Germany'),
+('COA00000008', 'Sérgio', 'Conceição', '1974-11-15', 'Portugal');
 
 
 -- UTAKMICE
 INSERT INTO Utakmica (ID_utakmice, datum_vrijeme, faza, broj_golova, ID_organizacije)
 VALUES
-('MAT00000001', '2021-04-07 19:00:00', 'Quarterfinal', 5, 'ORG00000001'),
-('MAT00000002', '2021-04-13 19:00:00', 'Quarterfinal', 1, 'ORG00000001'),
-('MAT00000003', '2021-04-06 19:00:00', 'Quarterfinal', 3, 'ORG00000001'),
-('MAT00000004', '2021-04-14 19:00:00', 'Quarterfinal', 3, 'ORG00000001'),
-('MAT00000005', '2021-04-06 20:00:00', 'Quarterfinal', 4, 'ORG00000001');
+-- Quarterfinals
+('MAT00000001', '2021-04-07 19:00:00', 'Quarterfinal', 5, 'ORG00000001'), -- Bayern Munich 2-3 Paris Saint-Germain
+('MAT00000002', '2021-04-13 19:00:00', 'Quarterfinal', 1, 'ORG00000001'), -- Paris Saint-Germain 0-1 Bayern Munich
+('MAT00000003', '2021-04-06 19:00:00', 'Quarterfinal', 3, 'ORG00000001'), -- Manchester City 2-1 Borussia Dortmund
+('MAT00000004', '2021-04-14 19:00:00', 'Quarterfinal', 3, 'ORG00000001'), -- Borussia Dortmund 1-2 Manchester City
+('MAT00000005', '2021-04-06 20:00:00', 'Quarterfinal', 4, 'ORG00000001'), -- Real Madrid 3-1 Liverpool
+('MAT00000006', '2021-04-14 20:00:00', 'Quarterfinal', 0, 'ORG00000001'), -- Liverpool 0-0 Real Madrid
+('MAT00000007', '2021-04-07 20:00:00', 'Quarterfinal', 4, 'ORG00000001'), -- Porto 0-2 Chelsea
+('MAT00000008', '2021-04-13 20:00:00', 'Quarterfinal', 3, 'ORG00000001'), -- Chelsea 0-1 Porto
+-- Semifinals
+('MAT00000009', '2021-04-27 19:00:00', 'Semifinal', 3, 'ORG00000001'), -- Real Madrid 1-1 Chelsea
+('MAT00000010', '2021-05-05 19:00:00', 'Semifinal', 4, 'ORG00000001'), -- Chelsea 2-0 Real Madrid
+('MAT00000011', '2021-04-28 19:00:00', 'Semifinal', 3, 'ORG00000001'), -- Paris Saint-Germain 1-2 Manchester City
+('MAT00000012', '2021-05-04 19:00:00', 'Semifinal', 4, 'ORG00000001'), -- Manchester City 2-0 Paris Saint-Germain
+-- Final
+('MAT00000013', '2021-05-29 19:00:00', 'Final', 1, 'ORG00000001'); -- Manchester City 0-1 Chelsea
+
 
 -- SUCI
 INSERT INTO Sudac (ID_suca, ime, prezime, datum_rodenja, nacionalnost, ID_organizacije)
 VALUES
-('REF00000001', 'Antonio Miguel Mateu', 'Lahoz', '1977-03-12', 'Spain', 'ORG00000001'),
-('REF00000002', 'Roberto Díaz', 'Pérez Del Palomar', '1976-04-29', 'Spain', 'ORG00000001'),
-('REF00000003', 'Iñigo', 'Prieto López de Ceraín', '1990-04-17', 'Spain', 'ORG00000001'),
-('REF00000004', 'Daniele', 'Orsato', '1975-11-23', 'Italy', 'ORG00000001'),
-('REF00000005', 'Alessandro', 'Giallatini', '1975-07-04', 'Italy', 'ORG00000001'),
-('REF00000006', 'Fabiano', 'Preti', '1978-02-24', 'Italy', 'ORG00000001'),
-('REF00000007', 'Ovidiu', 'Haţegan', '1980-07-14', 'Romania', 'ORG00000001'),
-('REF00000008', 'Octavian', 'Șovre', '1973-07-19', 'Romania', 'ORG00000001'),
-('REF00000009', 'Sebastian', 'Gheorghe', '1976-03-07', 'Romania', 'ORG00000001'),
-('REF00000010', 'Carlos', 'del Cerro Grande', '1976-03-13', 'Spain', 'ORG00000001'),
-('REF00000011', 'Juan Carlos', 'Yuste', '1975-09-25', 'Spain', 'ORG00000001'),
-('REF00000012', 'Roberto Alonso', 'Fernández', '1976-09-18', 'Spain', 'ORG00000001'),
-('REF00000013', 'Felix', 'Brych', '1975-08-03', 'Germany', 'ORG00000001'),
-('REF00000014', 'Mark', 'Borsch', '1977-03-29', 'Germany', 'ORG00000001'),
-('REF00000015', 'Stefan', 'Lupp', '1978-09-09', 'Germany', 'ORG00000001');
-
+-- Quarterfinals
+('REF00000001', 'Antonio Miguel Mateu', 'Lahoz', '1977-03-12', 'Spain', 'ORG00000001'), -- Bayern Munich vs Paris Saint-Germain (07/04/2021)
+('REF00000002', 'Pau', 'Cebrián Devis', '1977-05-01', 'Spain', 'ORG00000001'), -- Assistant referee
+('REF00000003', 'Roberto', 'Díaz Pérez Del Palomar', '1976-04-29', 'Spain', 'ORG00000001'), -- Assistant referee
+('REF00000004', 'Daniele', 'Orsato', '1975-11-23', 'Italy', 'ORG00000001'), -- Paris Saint-Germain vs Bayern Munich (13/04/2021)
+('REF00000005', 'Alessandro', 'Giallatini', '1975-07-04', 'Italy', 'ORG00000001'), -- Assistant referee
+('REF00000006', 'Fabiano', 'Preti', '1978-02-24', 'Italy', 'ORG00000001'), -- Assistant referee
+('REF00000007', 'Ovidiu', 'Haţegan', '1980-07-14', 'Romania', 'ORG00000001'), -- Manchester City vs Borussia Dortmund (06/04/2021)
+('REF00000008', 'Octavian', 'Șovre', '1973-07-19', 'Romania', 'ORG00000001'), -- Assistant referee
+('REF00000009', 'Sebastian', 'Gheorghe', '1976-03-07', 'Romania', 'ORG00000001'), -- Assistant referee
+('REF00000010', 'Carlos', 'del Cerro Grande', '1976-03-13', 'Spain', 'ORG00000001'), -- Borussia Dortmund vs Manchester City (14/04/2021)
+('REF00000011', 'Juan Carlos', 'Yuste', '1975-09-25', 'Spain', 'ORG00000001'), -- Assistant referee
+('REF00000012', 'Roberto Alonso', 'Fernández', '1976-09-18', 'Spain', 'ORG00000001'), -- Assistant referee
+('REF00000013', 'Felix', 'Brych', '1975-08-03', 'Germany', 'ORG00000001'), -- Real Madrid vs Liverpool (06/04/2021)
+('REF00000014', 'Mark', 'Borsch', '1977-03-29', 'Germany', 'ORG00000001'), -- Assistant referee
+('REF00000015', 'Stefan', 'Lupp', '1978-09-09', 'Germany', 'ORG00000001'), -- Assistant referee
+('REF00000016', 'Björn', 'Kuipers', '1973-03-28', 'Netherlands', 'ORG00000001'), -- Liverpool vs Real Madrid (14/04/2021)
+('REF00000017', 'Sander', 'van Roekel', '1974-12-19', 'Netherlands', 'ORG00000001'), -- Assistant referee
+('REF00000018', 'Erwin', 'Zeinstra', '1977-01-31', 'Netherlands', 'ORG00000001'), -- Assistant referee
+('REF00000019', 'Slavko', 'Vincic', '1979-11-25', 'Slovenia', 'ORG00000001'), -- Porto vs Chelsea (07/04/2021)
+('REF00000020', 'Tomaž', 'Klančnik', '1980-08-20', 'Slovenia', 'ORG00000001'), -- Assistant referee
+('REF00000021', 'Andraž', 'Kovačič', '1981-05-02', 'Slovenia', 'ORG00000001'), -- Assistant referee
+('REF00000022', 'Clement', 'Turpin', '1982-05-16', 'France', 'ORG00000001'), -- Chelsea vs Porto (13/04/2021)
+('REF00000023', 'Nicolas', 'Danos', '1981-01-21', 'France', 'ORG00000001'), -- Assistant referee
+('REF00000024', 'Cyril', 'Gringore', '1980-12-06', 'France', 'ORG00000001'), -- Assistant referee
+-- Semifinals
+('REF00000025', 'Danny', 'Makkelie', '1983-01-28', 'Netherlands', 'ORG00000001'), -- Real Madrid vs Chelsea (27/04/2021)
+('REF00000026', 'Mario', 'Diks', '1977-10-02', 'Netherlands', 'ORG00000001'), -- Assistant referee
+('REF00000027', 'Hessel', 'Steegstra', '1980-09-29', 'Netherlands', 'ORG00000001'), -- Assistant referee
+('REF00000028', 'Daniele', 'Orsato', '1975-11-23', 'Italy', 'ORG00000001'), -- Chelsea vs Real Madrid (05/05/2021)
+('REF00000029', 'Alessandro', 'Giallatini', '1975-07-04', 'Italy', 'ORG00000001'), -- Assistant referee
+('REF00000030', 'Fabiano', 'Preti', '1978-02-24', 'Italy', 'ORG00000001'), -- Assistant referee
+('REF00000031', 'Björn', 'Kuipers', '1973-03-28', 'Netherlands', 'ORG00000001'), -- Paris Saint-Germain vs Manchester City (28/04/2021)
+('REF00000032', 'Sander', 'van Roekel', '1974-12-19', 'Netherlands', 'ORG00000001'), -- Assistant referee
+('REF00000033', 'Erwin', 'Zeinstra', '1977-01-31', 'Netherlands', 'ORG00000001'), -- Assistant referee
+('REF00000034', 'Felix', 'Brych', '1975-08-03', 'Germany', 'ORG00000001'), -- Manchester City vs Paris Saint-Germain (04/05/2021)
+('REF00000035', 'Mark', 'Borsch', '1977-03-29', 'Germany', 'ORG00000001'), -- Assistant referee
+('REF00000036', 'Stefan', 'Lupp', '1978-09-09', 'Germany', 'ORG00000001'), -- Assistant referee
+-- Final
+('REF00000037', 'Antonio Miguel Mateu', 'Lahoz', '1977-03-12', 'Spain', 'ORG00000001'), -- Manchester City vs Chelsea (29/05/2021)
+('REF00000038', 'Pau', 'Cebrián Devis', '1977-05-01', 'Spain', 'ORG00000001'), -- Assistant referee
+('REF00000039', 'Roberto', 'Díaz Pérez Del Palomar', '1976-04-29', 'Spain', 'ORG00000001'); -- Assistant referee
 
 
 -- VEZA N:M IZMEĐU TIMOVA I IGRAČA
@@ -442,37 +522,101 @@ VALUES
 ('TIM00000006', 'PLR00000108', '2019-06-15', NULL), 			-- Real Madrid, Rodrygo
 ('TIM00000006', 'PLR00000109', '2018-07-22', NULL), 			-- Real Madrid, Andriy Lunin
 ('TIM00000006', 'PLR00000110', '2020-09-21', '2022-07-17'), 	-- Real Madrid, Diego Altube
-('TIM00000006', 'PLR00000111', '2007-01-01', '2022-06-12'); 	-- Real Madrid, Marcelo
+('TIM00000006', 'PLR00000111', '2007-01-01', '2022-06-12'), 	-- Real Madrid, Marcelo
 ('TIM00000006', 'PLR00000114', '2018-07-18', '2023-08-31'),     -- Real Madrid, Álvaro Odriozola
 ('TIM00000006', 'PLR00000115', '2013-06-27', '2022-07-06');     -- Real Madrid, Isco
+
+-- IGRAČI CHELSEA
+('TIM00000007', 'PLR00000116', '2020-09-24', NULL),              -- Chelsea, Édouard Mendy
+('TIM00000007', 'PLR00000117', '2017-07-09', '2022-07-01'),      -- Chelsea, Antonio Rüdiger
+('TIM00000007', 'PLR00000118', '2020-08-28', NULL),              -- Chelsea, Thiago Silva
+('TIM00000007', 'PLR00000119', '2012-08-24', NULL),              -- Chelsea, César Azpilicueta
+('TIM00000007', 'PLR00000120', '2014-07-01', '2022-07-01'),      -- Chelsea, Andreas Christensen
+('TIM00000007', 'PLR00000121', '2020-08-26', NULL),              -- Chelsea, Ben Chilwell
+('TIM00000007', 'PLR00000122', '2019-07-01', NULL),              -- Chelsea, Reece James
+('TIM00000007', 'PLR00000123', '2018-07-14', NULL),              -- Chelsea, Jorginho Frello
+('TIM00000007', 'PLR00000124', '2016-07-16', NULL),              -- Chelsea, Ngolo Kanté
+('TIM00000007', 'PLR00000125', '2018-08-08', NULL),              -- Chelsea, Mateo Kovačić
+('TIM00000007', 'PLR00000126', '2019-07-01', NULL),              -- Chelsea, Mason Mount
+('TIM00000007', 'PLR00000127', '2020-09-04', NULL),              -- Chelsea, Kai Havertz
+('TIM00000007', 'PLR00000128', '2019-07-01', NULL),              -- Chelsea, Christian Pulisic
+('TIM00000007', 'PLR00000129', '2020-07-01', '2022-07-01'),      -- Chelsea, Timo Werner
+('TIM00000007', 'PLR00000130', '2018-01-31', '2021-07-01'),      -- Chelsea, Olivier Giroud
+('TIM00000007', 'PLR00000131', '2020-07-01', NULL),              -- Chelsea, Hakim Ziyech
+('TIM00000007', 'PLR00000132', '2018-08-11', NULL),              -- Chelsea, Callum Hudson-Odoi
+('TIM00000007', 'PLR00000133', '2018-08-08', NULL),              -- Chelsea, Kepa Arrizabalaga
+
+-- IGRAČI PORTO
+('TIM00000008', 'PLR00000134', '2019-07-01', NULL),              -- Porto, Agustín Marchesín
+('TIM00000008', 'PLR00000135', '2019-07-01', NULL),              -- Porto, Pepe Ferreira
+('TIM00000008', 'PLR00000136', '2018-07-01', NULL),              -- Porto, Chancel Mbemba
+('TIM00000008', 'PLR00000137', '2020-07-01', NULL),              -- Porto, Zaidu Sanusi
+('TIM00000008', 'PLR00000138', '2018-07-01', NULL),              -- Porto, Wilson Manafá
+('TIM00000008', 'PLR00000139', '2019-08-01', NULL),              -- Porto, Mateus Uribe
+('TIM00000008', 'PLR00000140', '2015-07-01', '2022-07-01'),      -- Porto, Sérgio Oliveira
+('TIM00000008', 'PLR00000141', '2015-08-31', '2022-07-01'),      -- Porto, Jesús Corona
+('TIM00000008', 'PLR00000142', '2014-09-01', NULL),              -- Porto, Otávio Monteiro
+('TIM00000008', 'PLR00000143', '2017-07-01', '2021-07-01'),      -- Porto, Moussa Marega
+('TIM00000008', 'PLR00000144', '2019-07-01', NULL),              -- Porto, Luis Díaz
+('TIM00000008', 'PLR00000145', '2020-08-31', NULL),              -- Porto, Mehdi Taremi
+('TIM00000008', 'PLR00000146', '2020-07-01', NULL),              -- Porto, Cláudio Ramos
+('TIM00000008', 'PLR00000147', '2018-07-01', NULL),              -- Porto, Iván Marcano
+('TIM00000008', 'PLR00000148', '2019-07-01', NULL),              -- Porto, Fábio Vieira
+('TIM00000008', 'PLR00000149', '2020-07-01', NULL);              -- Porto, Toni Martínez
 
 -- VEZA IZMEĐU TIMOVA I TRENERA
 INSERT INTO TimTrener (ID_tima, ID_trenera, datum_pocetka, datum_zavrsetka)
 VALUES
+-- Bayern München, Hans-Dieter Flick
 ('TIM00000001', 'COA00000001', '2019-11-03', '2021-07-01'),
+-- Paris Saint-Germain, Mauricio Pochettino
 ('TIM00000002', 'COA00000002', '2021-01-02', '2022-07-05'),
+-- Manchester City, Pep Guardiola
 ('TIM00000003', 'COA00000003', '2016-07-01', NULL),
-('TIM00000004', 'COA00000004', '2020-12-29', NULL);
+-- Borrusia Dortmund, Edin Terzić
+('TIM00000004', 'COA00000004', '2020-12-29', NULL),
+-- Liverpool, Jürgen Klopp
+('TIM00000005', 'COA00000005', '2015-10-08', NULL),
+-- Real Madrid, Zinedine Zidane
+('TIM00000006', 'COA00000006', '2016-01-04', '2021-05-27'),
+-- Chelsea, Thomas Tuchel
+('TIM00000007', 'COA00000007', '2021-01-26', '2022-09-07'),
+-- Porto, Sérgio Conceição
+('TIM00000008', 'COA00000008', '2017-06-08', NULL);
 
 
 -- IZMEĐU TIMOVA I UTAKMICA
 INSERT INTO TimUtakmica (ID_tima, ID_utakmice, domaci, gost)
 VALUES
-('TIM00000001', 'MAT00000001', TRUE, FALSE),
+-- Quarterfinals
+('TIM00000001', 'MAT00000001', TRUE, FALSE), -- Bayern München vs Paris Saint-Germain (07/04/2021)
 ('TIM00000002', 'MAT00000001', FALSE, TRUE),
-
+('TIM00000002', 'MAT00000002', TRUE, FALSE), -- Paris Saint-Germain vs Bayern München (13/04/2021)
 ('TIM00000001', 'MAT00000002', FALSE, TRUE),
-('TIM00000002', 'MAT00000002', TRUE, FALSE),
-
-('TIM00000003', 'MAT00000003', TRUE, FALSE),
+('TIM00000003', 'MAT00000003', TRUE, FALSE), -- Manchester City vs Borussia Dortmund (06/04/2021)
 ('TIM00000004', 'MAT00000003', FALSE, TRUE),
-
+('TIM00000004', 'MAT00000004', TRUE, FALSE), -- Borussia Dortmund vs Manchester City (14/04/2021)
 ('TIM00000003', 'MAT00000004', FALSE, TRUE),
-('TIM00000004', 'MAT00000004', TRUE, FALSE),
-
+('TIM00000006', 'MAT00000005', TRUE, FALSE), -- Real Madrid vs Liverpool (06/04/2021)
 ('TIM00000005', 'MAT00000005', FALSE, TRUE),
-('TIM00000006', 'MAT00000005', TRUE, FALSE);
-
+('TIM00000005', 'MAT00000006', TRUE, FALSE), -- Liverpool vs Real Madrid (14/04/2021)
+('TIM00000006', 'MAT00000006', FALSE, TRUE),
+('TIM00000007', 'MAT00000007', TRUE, FALSE), -- Porto vs Chelsea (07/04/2021)
+('TIM00000008', 'MAT00000007', FALSE, TRUE),
+('TIM00000008', 'MAT00000008', TRUE, FALSE), -- Chelsea vs Porto (13/04/2021)
+('TIM00000007', 'MAT00000008', FALSE, TRUE),
+-- Semifinals
+('TIM00000006', 'MAT00000009', TRUE, FALSE), -- Real Madrid vs Chelsea (27/04/2021)
+('TIM00000007', 'MAT00000009', FALSE, TRUE),
+('TIM00000007', 'MAT00000010', TRUE, FALSE), -- Chelsea vs Real Madrid (05/05/2021)
+('TIM00000006', 'MAT00000010', FALSE, TRUE),
+('TIM00000002', 'MAT00000011', TRUE, FALSE), -- Paris Saint-Germain vs Manchester City (28/04/2021)
+('TIM00000003', 'MAT00000011', FALSE, TRUE),
+('TIM00000003', 'MAT00000012', TRUE, FALSE), -- Manchester City vs Paris Saint-Germain (04/05/2021)
+('TIM00000002', 'MAT00000012', FALSE, TRUE),
+-- Final
+('TIM00000003', 'MAT00000013', TRUE, FALSE), -- Manchester City vs Chelsea (29/05/2021)
+('TIM00000007', 'MAT00000013', FALSE, TRUE);
 
 
 -- VEZA IZMEĐU IGRAČA I UTAKMICA
@@ -626,30 +770,85 @@ VALUES
 ('PLR00000089', 'MAT00000005', 1, 1, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Mohamed Salah
 ('PLR00000090', 'MAT00000005', 0, 0, 1, 0, 1, 0, 0, 0, '00:42:00', '01:30:00'),  -- Thiago Alcântara ušao umjesto Naby Keïta
 ('PLR00000092', 'MAT00000005', 0, 0, 1, 0, 0, 1, 0, 0, '01:21:00', '01:30:00'),  -- Roberto Firmino ušao umjesto Diogo Jota
-('PLR00000091', 'MAT00000005', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00');  -- Xherdan Shaqiri ušao umjesto Ozan Kabak
+('PLR00000091', 'MAT00000005', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00'),  -- Xherdan Shaqiri ušao umjesto Ozan Kabak
+
+-- UTAKMICA 14.4.'21. RMA - LIVERPOOL
+-- IGRAČI REAL MADRIDA
+('PLR00000096', 'MAT00000006', 0, 0, 0, 1, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thibaut Courtois
+('PLR00000098', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Éder Militão
+('PLR00000099', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Nacho Fernández
+('PLR00000100', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ferland Mendy
+('PLR00000101', 'MAT00000006', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Luka Modrić
+('PLR00000102', 'MAT00000006', 0, 0, 1, 0, 1, 0, 1, 0, '00:00:00', '01:30:00'),  -- Casemiro
+('PLR00000103', 'MAT00000006', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Toni Kroos
+('PLR00000104', 'MAT00000006', 0, 1, 2, 0, 0, 0, 0, 0, '00:00:00', '01:12:00'),  -- Marco Asensio
+('PLR00000105', 'MAT00000006', 0, 1, 2, 0, 1, 0, 0, 0, '00:00:00', '01:22:00'),  -- Karim Benzema
+('PLR00000106', 'MAT00000006', 0, 1, 2, 0, 1, 0, 0, 0, '00:00:00', '01:03:00'),  -- Vinícius Júnior
+('PLR00000108', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '01:03:00', '01:30:00'),  -- Rodrygo ušao umjesto Vinícius Júnior
+('PLR00000107', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '01:12:00', '01:30:00'),  -- Federico Valverde ušao umjesto Marco Asensio
+('PLR00000114', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00'),  -- Álvaro Odriozola ušao umjesto Karim Benzema
+
+-- IGRAČI LIVERPOOLA
+('PLR00000079', 'MAT00000006', 0, 0, 0, 2, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Alisson Ramses Becker
+('PLR00000080', 'MAT00000006', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Andrew Robertson
+('PLR00000081', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:00:00'),  -- Ozan Kabak
+('PLR00000082', 'MAT00000006', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Nathaniel Phillips
+('PLR00000083', 'MAT00000006', 0, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Trent Alexander-Arnold
+('PLR00000084', 'MAT00000006', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Georginio Wijnaldum
+('PLR00000085', 'MAT00000006', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Fabinho Tavares
+('PLR00000112', 'MAT00000006', 0, 0, 1, 0, 2, 0, 0, 0, '00:00:00', '00:46:00'),  -- James Milner
+('PLR00000089', 'MAT00000006', 0, 1, 3, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Mohamed Salah
+('PLR00000087', 'MAT00000006', 0, 0, 2, 0, 1, 1, 0, 0, '00:00:00', '01:30:00'),  -- Sadio Mané
+('PLR00000088', 'MAT00000006', 0, 1, 3, 0, 0, 0, 0, 0, '00:00:00', '01:22:00'),  -- Diogo Jota
+('PLR00000090', 'MAT00000006', 0, 0, 1, 0, 0, 0, 0, 0, '00:46:00', '01:30:00'),  -- Thiago Alcântara ušao umjesto James Milner
+('PLR00000092', 'MAT00000006', 0, 1, 1, 0, 0, 0, 0, 0, '01:00:00', '01:30:00'),  -- Roberto Firmino ušao umjesto Ozan Kabak
+('PLR00000113', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00');  -- Alex Oxlade-Chamberlain ušao umjesto Diogo Jota
 
 -- VEZA IZMEĐU UTAKMICA I SUDACA
 INSERT INTO UtakmicaSudac (ID_utakmice, ID_suca, uloga)
 VALUES
-('MAT00000001', 'REF00000001', 'Main Referee'),
+-- Quarterfinals
+('MAT00000001', 'REF00000001', 'Main Referee'),       -- Bayern München vs Paris Saint-Germain (07/04/2021)
 ('MAT00000001', 'REF00000002', 'Assistant Referee'),
 ('MAT00000001', 'REF00000003', 'Assistant Referee'),
-
-('MAT00000002', 'REF00000004', 'Main Referee'),
+('MAT00000002', 'REF00000004', 'Main Referee'),       -- Paris Saint-Germain vs Bayern München (13/04/2021)
 ('MAT00000002', 'REF00000005', 'Assistant Referee'),
 ('MAT00000002', 'REF00000006', 'Assistant Referee'),
-
-('MAT00000003', 'REF00000007', 'Main Referee'),
+('MAT00000003', 'REF00000007', 'Main Referee'),       -- Manchester City vs Borussia Dortmund (06/04/2021)
 ('MAT00000003', 'REF00000008', 'Assistant Referee'),
 ('MAT00000003', 'REF00000009', 'Assistant Referee'),
-
-('MAT00000004', 'REF00000010', 'Main Referee'),
+('MAT00000004', 'REF00000010', 'Main Referee'),       -- Borussia Dortmund vs Manchester City (14/04/2021)
 ('MAT00000004', 'REF00000011', 'Assistant Referee'),
 ('MAT00000004', 'REF00000012', 'Assistant Referee'),
-
-('MAT00000005', 'REF00000013', 'Main Referee'),
+('MAT00000005', 'REF00000013', 'Main Referee'),       -- Real Madrid vs Liverpool (06/04/2021)
 ('MAT00000005', 'REF00000014', 'Assistant Referee'),
-('MAT00000005', 'REF00000015', 'Assistant Referee');
+('MAT00000005', 'REF00000015', 'Assistant Referee'),
+('MAT00000006', 'REF00000016', 'Main Referee'),       -- Liverpool vs Real Madrid (14/04/2021)
+('MAT00000006', 'REF00000017', 'Assistant Referee'),
+('MAT00000006', 'REF00000018', 'Assistant Referee'),
+('MAT00000007', 'REF00000001', 'Main Referee'),       -- Porto vs Chelsea (07/04/2021)
+('MAT00000007', 'REF00000002', 'Assistant Referee'),
+('MAT00000007', 'REF00000003', 'Assistant Referee'),
+('MAT00000008', 'REF00000004', 'Main Referee'),       -- Chelsea vs Porto (13/04/2021)
+('MAT00000008', 'REF00000005', 'Assistant Referee'),
+('MAT00000008', 'REF00000006', 'Assistant Referee'),
+-- Semifinals
+('MAT00000009', 'REF00000007', 'Main Referee'),       -- Real Madrid vs Chelsea (27/04/2021)
+('MAT00000009', 'REF00000008', 'Assistant Referee'),
+('MAT00000009', 'REF00000009', 'Assistant Referee'),
+('MAT00000010', 'REF00000010', 'Main Referee'),       -- Chelsea vs Real Madrid (05/05/2021)
+('MAT00000010', 'REF00000011', 'Assistant Referee'),
+('MAT00000010', 'REF00000012', 'Assistant Referee'),
+('MAT00000011', 'REF00000013', 'Main Referee'),       -- Paris Saint-Germain vs Manchester City (28/04/2021)
+('MAT00000011', 'REF00000014', 'Assistant Referee'),
+('MAT00000011', 'REF00000015', 'Assistant Referee'),
+('MAT00000012', 'REF00000016', 'Main Referee'),       -- Manchester City vs Paris Saint-Germain (04/05/2021)
+('MAT00000012', 'REF00000017', 'Assistant Referee'),
+('MAT00000012', 'REF00000018', 'Assistant Referee'),
+-- Final
+('MAT00000013', 'REF00000001', 'Main Referee'),       -- Manchester City vs Chelsea (29/05/2021)
+('MAT00000013', 'REF00000002', 'Assistant Referee'),
+('MAT00000013', 'REF00000003', 'Assistant Referee');
 
 -- Display data from the Organizacija table
 SELECT * FROM Organizacija;
