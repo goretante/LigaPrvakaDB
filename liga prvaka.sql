@@ -802,7 +802,15 @@ VALUES
 ('PLR00000088', 'MAT00000006', 0, 1, 3, 0, 0, 0, 0, 0, '00:00:00', '01:22:00'),  -- Diogo Jota
 ('PLR00000090', 'MAT00000006', 0, 0, 1, 0, 0, 0, 0, 0, '00:46:00', '01:30:00'),  -- Thiago Alcântara ušao umjesto James Milner
 ('PLR00000092', 'MAT00000006', 0, 1, 1, 0, 0, 0, 0, 0, '01:00:00', '01:30:00'),  -- Roberto Firmino ušao umjesto Ozan Kabak
-('PLR00000113', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00');  -- Alex Oxlade-Chamberlain ušao umjesto Diogo Jota
+('PLR00000113', 'MAT00000006', 0, 0, 0, 0, 0, 0, 0, 0, '01:22:00', '01:30:00'),  -- Alex Oxlade-Chamberlain ušao umjesto Diogo Jota
+
+-- UTAKMICA 7.4.'21. PORTO - CHELSEA
+
+
+-- UTAKMICA 13.4.'21. CHELSEA - PORTO
+
+
+
 
 -- VEZA IZMEĐU UTAKMICA I SUDACA
 INSERT INTO UtakmicaSudac (ID_utakmice, ID_suca, uloga)
