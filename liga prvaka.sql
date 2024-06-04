@@ -899,6 +899,148 @@ VALUES
 ('PLR00000128', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '01:10:00', '01:30:00'),  -- Christian Pulisic ušao umjesto Mason Mount
 ('PLR00000130', 'MAT00000009', 0, 0, 0, 0, 0, 1, 0, 0, '01:15:00', '01:30:00'),  -- Olivier Giroud ušao umjesto Timo Werner
 
+-- UTAKMICA 27.4.'21. Real Madrid - Chelsea
+('PLR00000096', 'MAT00000009', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thibaut Courtois
+('PLR00000097', 'MAT00000009', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Lucas Vázquez
+('PLR00000098', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Éder Militão
+('PLR00000099', 'MAT00000009', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Nacho Fernández
+('PLR00000100', 'MAT00000009', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ferland Mendy
+('PLR00000101', 'MAT00000009', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Luka Modrić
+('PLR00000102', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Casemiro
+('PLR00000103', 'MAT00000009', 0, 1, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Toni Kroos
+('PLR00000104', 'MAT00000009', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Marco Asensio
+('PLR00000105', 'MAT00000009', 1, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Karim Benzema
+('PLR00000106', 'MAT00000009', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Vinícius Júnior
+('PLR00000107', 'MAT00000009', 0, 0, 0, 0, 0, 1, 0, 0, '01:10:00', '01:30:00'),  -- Federico Valverde ušao umjesto Marco Asensio
+('PLR00000108', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '01:15:00', '01:30:00'),  -- Rodrygo ušao umjesto Vinícius Júnior
+
+('PLR00000116', 'MAT00000009', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Édouard Mendy
+('PLR00000119', 'MAT00000009', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- César Azpilicueta
+('PLR00000118', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thiago Silva
+('PLR00000117', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Antonio Rüdiger
+('PLR00000121', 'MAT00000009', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ben Chilwell
+('PLR00000122', 'MAT00000009', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Reece James
+('PLR00000123', 'MAT00000009', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Jorginho Frello
+('PLR00000124', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '01:05:00', '01:30:00'),  -- N'Golo Kanté ušao umjesto Mateo Kovačić
+('PLR00000125', 'MAT00000009', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Mateo Kovačić
+('PLR00000126', 'MAT00000009', 0, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Mason Mount
+('PLR00000127', 'MAT00000009', 0, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Kai Havertz
+('PLR00000129', 'MAT00000009', 1, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Timo Werner
+('PLR00000128', 'MAT00000009', 0, 0, 0, 0, 0, 0, 0, 0, '01:10:00', '01:30:00'),  -- Christian Pulisic ušao umjesto Mason Mount
+('PLR00000130', 'MAT00000009', 0, 0, 0, 0, 0, 1, 0, 0, '01:15:00', '01:30:00'),  -- Olivier Giroud ušao umjesto Timo Werner
+
+-- UTAKMICA 5.5.'21. Chelsea - Real Madrid
+('PLR00000116', 'MAT00000010', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Édouard Mendy
+('PLR00000119', 'MAT00000010', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- César Azpilicueta
+('PLR00000118', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thiago Silva
+('PLR00000117', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Antonio Rüdiger
+('PLR00000121', 'MAT00000010', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ben Chilwell
+('PLR00000122', 'MAT00000010', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Reece James
+('PLR00000123', 'MAT00000010', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Jorginho Frello
+('PLR00000124', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '01:05:00', '01:30:00'),  -- N'Golo Kanté ušao umjesto Mateo Kovačić
+('PLR00000125', 'MAT00000010', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Mateo Kovačić
+('PLR00000126', 'MAT00000010', 0, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Mason Mount
+('PLR00000127', 'MAT00000010', 1, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Kai Havertz
+('PLR00000129', 'MAT00000010', 1, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Timo Werner
+('PLR00000128', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '01:10:00', '01:30:00'),  -- Christian Pulisic ušao umjesto Mason Mount
+('PLR00000130', 'MAT00000010', 0, 0, 0, 0, 0, 1, 0, 0, '01:15:00', '01:30:00'),  -- Olivier Giroud ušao umjesto Timo Werner
+
+('PLR00000096', 'MAT00000010', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thibaut Courtois
+('PLR00000097', 'MAT00000010', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Lucas Vázquez
+('PLR00000098', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Éder Militão
+('PLR00000099', 'MAT00000010', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Nacho Fernández
+('PLR00000100', 'MAT00000010', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ferland Mendy
+('PLR00000101', 'MAT00000010', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Luka Modrić
+('PLR00000102', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Casemiro
+('PLR00000103', 'MAT00000010', 0, 1, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Toni Kroos
+('PLR00000104', 'MAT00000010', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Marco Asensio
+('PLR00000105', 'MAT00000010', 1, 0, 2, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Karim Benzema
+('PLR00000106', 'MAT00000010', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Vinícius Júnior
+('PLR00000107', 'MAT00000010', 0, 0, 0, 0, 0, 1, 0, 0, '01:10:00', '01:30:00'),  -- Federico Valverde ušao umjesto Marco Asensio
+('PLR00000108', 'MAT00000010', 0, 0, 0, 0, 0, 0, 0, 0, '01:15:00', '01:30:00'),  -- Rodrygo ušao umjesto Vinícius Júnior
+
+-- UTAKMICA 28.4.'21. Paris Saint-Germain - Manchester City
+('PLR00000019', 'MAT00000011', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Keylor Navas
+('PLR00000020', 'MAT00000011', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Abdou Diallo
+('PLR00000021', 'MAT00000011', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Presnel Kimpembe
+('PLR00000022', 'MAT00000011', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Marcos Aoás Corrêa Marquinhos
+('PLR00000023', 'MAT00000011', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Colin Dagba
+('PLR00000024', 'MAT00000011', 0, 0, 0, 0, 0, 0, 0, 0, '01:05:00', '01:30:00'),  -- Idrissa Gueye ušao umjesto Marco Verratti
+('PLR00000025', 'MAT00000011', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Danilo Pereira
+('PLR00000026', 'MAT00000011', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Julian Draxler
+('PLR00000027', 'MAT00000011', 0, 0, 3, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Neymar da Silva Santos Júnior
+('PLR00000028', 'MAT00000011', 0, 1, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ángel Di María
+('PLR00000029', 'MAT00000011', 1, 0, 4, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Kylian Mbappé
+('PLR00000030', 'MAT00000011', 0, 0, 1, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Ander Herrera ušao umjesto Julian Draxler
+('PLR00000031', 'MAT00000011', 0, 0, 0, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Mitchel Bakker ušao umjesto Colin Dagba
+
+('PLR00000038', 'MAT00000011', 0, 0, 0, 2, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ederson Santana de Moraes
+('PLR00000039', 'MAT00000011', 0, 0, 0, 0, 2, 0, 0, 0, '00:00:00', '01:30:00'),  -- Kyle Walker
+('PLR00000040', 'MAT00000011', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- John Stones
+('PLR00000041', 'MAT00000011', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Rúben Dias
+('PLR00000042', 'MAT00000011', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- João Cancelo
+('PLR00000043', 'MAT00000011', 0, 0, 1, 0, 1, 0, 0, 0, '01:10:00', '01:30:00'),  -- Rodrigo Hernández Cascante ušao umjesto İlkay Gündoğan
+('PLR00000044', 'MAT00000011', 0, 1, 2, 0, 0, 1, 0, 0, '00:00:00', '01:10:00'),  -- İlkay Gündoğan
+('PLR00000045', 'MAT00000011', 0, 0, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Riyad Mahrez
+('PLR00000046', 'MAT00000011', 0, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Kevin De Bruyne
+('PLR00000047', 'MAT00000011', 0, 0, 1, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Phil Foden ušao umjesto Raheem Sterling
+('PLR00000075', 'MAT00000011', 1, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:20:00'),  -- Raheem Sterling
+('PLR00000049', 'MAT00000011', 0, 0, 0, 0, 0, 0, 0, 0, '01:25:00', '01:30:00'),  -- Gabriel Jesus ušao umjesto Riyad Mahrez
+
+-- UTAKMICA 4.5.'21. Manchester City - Paris Saint-Germain
+('PLR00000019', 'MAT00000012', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Keylor Navas
+('PLR00000020', 'MAT00000012', 0, 0, 0, 0, 2, 0, 0, 0, '00:00:00', '01:30:00'),  -- Abdou Diallo
+('PLR00000021', 'MAT00000012', 0, 0, 0, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Presnel Kimpembe
+('PLR00000022', 'MAT00000012', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Marcos Aoás Corrêa Marquinhos
+('PLR00000023', 'MAT00000012', 0, 0, 1, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Colin Dagba
+('PLR00000024', 'MAT00000012', 0, 0, 0, 0, 0, 0, 0, 0, '01:05:00', '01:30:00'),  -- Idrissa Gueye ušao umjesto Marco Verratti
+('PLR00000025', 'MAT00000012', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Danilo Pereira
+('PLR00000026', 'MAT00000012', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Julian Draxler
+('PLR00000027', 'MAT00000012', 0, 0, 3, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Neymar da Silva Santos Júnior
+('PLR00000028', 'MAT00000012', 0, 1, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ángel Di María
+('PLR00000029', 'MAT00000012', 1, 0, 4, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),
+('PLR00000030', 'MAT00000012', 0, 0, 1, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Ander Herrera ušao umjesto Julian Draxler
+('PLR00000031', 'MAT00000012', 0, 0, 0, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Mitchel Bakker ušao umjesto Colin Dagba
+
+('PLR00000038', 'MAT00000012', 0, 0, 0, 2, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ederson Santana de Moraes
+('PLR00000039', 'MAT00000012', 0, 0, 0, 0, 2, 0, 0, 0, '00:00:00', '01:30:00'),  -- Kyle Walker
+('PLR00000040', 'MAT00000012', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- John Stones
+('PLR00000041', 'MAT00000012', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Rúben Dias
+('PLR00000042', 'MAT00000012', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- João Cancelo
+('PLR00000043', 'MAT00000012', 0, 0, 1, 0, 1, 0, 0, 0, '01:10:00', '01:30:00'),  -- Rodrigo Hernández Cascante ušao umjesto İlkay Gündoğan
+('PLR00000044', 'MAT00000012', 0, 1, 2, 0, 0, 1, 0, 0, '00:00:00', '01:10:00'),  -- İlkay Gündoğan
+('PLR00000045', 'MAT00000012', 0, 0, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Riyad Mahrez
+('PLR00000046', 'MAT00000012', 0, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Kevin De Bruyne
+('PLR00000047', 'MAT00000012', 0, 0, 1, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Phil Foden ušao umjesto Raheem Sterling
+('PLR00000075', 'MAT00000012', 1, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:20:00'),  -- Raheem Sterling
+('PLR00000049', 'MAT00000012', 0, 0, 0, 0, 0, 0, 0, 0, '01:25:00', '01:30:00'),  -- Gabriel Jesus ušao umjesto Riyad Mahrez
+
+-- UTAKMICA 29.5.'21. Manchester City - Chelsea
+('PLR00000038', 'MAT00000013', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ederson Santana de Moraes
+('PLR00000039', 'MAT00000013', 0, 0, 0, 0, 2, 0, 0, 0, '00:00:00', '01:30:00'),  -- Kyle Walker
+('PLR00000040', 'MAT00000013', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- John Stones
+('PLR00000041', 'MAT00000013', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Rúben Dias
+('PLR00000042', 'MAT00000013', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- João Cancelo
+('PLR00000043', 'MAT00000013', 0, 0, 1, 0, 1, 0, 0, 0, '01:10:00', '01:30:00'),  -- Rodrigo Hernández Cascante ušao umjesto İlkay Gündoğan
+('PLR00000044', 'MAT00000013', 0, 1, 2, 0, 0, 1, 0, 0, '00:00:00', '01:10:00'),  -- İlkay Gündoğan
+('PLR00000045', 'MAT00000013', 0, 0, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Riyad Mahrez
+('PLR00000046', 'MAT00000013', 0, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Kevin De Bruyne
+('PLR00000047', 'MAT00000013', 0, 0, 1, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Phil Foden ušao umjesto Raheem Sterling
+('PLR00000075', 'MAT00000013', 1, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:20:00'),  -- Raheem Sterling
+('PLR00000049', 'MAT00000013', 0, 0, 0, 0, 0, 0, 0, 0, '01:25:00', '01:30:00');  -- Gabriel Jesus ušao umjesto Riyad Mahrez
+
+('PLR00000050', 'MAT00000013', 0, 0, 0, 3, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Edouard Mendy
+('PLR00000051', 'MAT00000013', 0, 0, 0, 0, 2, 0, 0, 0, '00:00:00', '01:30:00'),  -- César Azpilicueta
+('PLR00000052', 'MAT00000013', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Thiago Silva
+('PLR00000053', 'MAT00000013', 0, 0, 1, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Antonio Rüdiger
+('PLR00000054', 'MAT00000013', 0, 0, 0, 0, 1, 0, 0, 0, '00:00:00', '01:30:00'),  -- Ben Chilwell
+('PLR00000055', 'MAT00000013', 0, 0, 1, 0, 1, 0, 0, 0, '01:10:00', '01:30:00'),  -- Jorginho ušao umjesto N'Golo Kanté
+('PLR00000056', 'MAT00000013', 0, 1, 2, 0, 0, 1, 0, 0, '00:00:00', '01:10:00'),  -- N'Golo Kanté
+('PLR00000057', 'MAT00000013', 0, 0, 3, 0, 0, 0, 0, 0, '00:00:00', '01:30:00'),  -- Christian Pulisic
+('PLR00000058', 'MAT00000013', 0, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:30:00'),  -- Mason Mount
+('PLR00000059', 'MAT00000013', 0, 0, 1, 0, 0, 0, 0, 0, '01:20:00', '01:30:00'),  -- Kai Havertz ušao umjesto Timo Werner
+('PLR00000060', 'MAT00000013', 1, 0, 2, 0, 0, 1, 0, 0, '00:00:00', '01:20:00'),  -- Timo Werner
+('PLR00000061', 'MAT00000013', 0, 0, 0, 0, 0, 0, 0, 0, '01:25:00', '01:30:00');  -- Olivier Giroud ušao umjesto Christian Pulisic
 
 -- VEZA IZMEĐU UTAKMICA I SUDACA
 INSERT INTO UtakmicaSudac (ID_utakmice, ID_suca, uloga)
@@ -980,106 +1122,115 @@ SELECT * FROM IgracUtakmica;
 SELECT * FROM UtakmicaSudac;
 
 
---kronoloski pregled svih utakmnica
-
-SELECT 
-    ID_utakmice,
-    datum_vrijeme,
-    faza,
-    broj_golova,
-    ID_organizacije
-FROM Utakmica
-ORDER BY datum_vrijeme ASC;
-
-
-
---Popis svih igrača koji su igrali za određenu momčad tijekom sezone
-
-SELECT 
-    Igrac.ID_igraca,
-    Igrac.ime,
-    Igrac.prezime,
-    Igrac.pozicija,
-    Igrac.datum_rodenja,
-    Igrac.nacionalnost
-FROM Igrac
-JOIN TimIgrac ON Igrac.ID_igraca = TimIgrac.ID_igraca
-WHERE TimIgrac.ID_tima = 'SPECIFICNI_ID_TIMA'
-  AND TimIgrac.datum_pocetka <= 'KRAJ_SEZONE'
-  AND (TimIgrac.datum_zavrsetka IS NULL OR TimIgrac.datum_zavrsetka >= 'POCETAK_SEZONE');
-
-
---Popis igrača koji su igrali na pojedinoj utakmici
-
-SELECT 
-    Igrac.ID_igraca,
-    Igrac.ime,
-    Igrac.prezime,
-    Igrac.pozicija,
-    Igrac.datum_rodenja,
-    Igrac.nacionalnost
-FROM Igrac
-JOIN IgracUtakmica ON Igrac.ID_igraca = IgracUtakmica.ID_igraca
-WHERE IgracUtakmica.ID_utakmice = 'SPECIFICNI_ID_UTAKMICE';
-
-
-
---Izvještaj o rezultatima svih utakmica koje je određena momčad odigrala u pojedinoj fazi natjecanja
-
+-- Kronološki pregled odigranih utakmica
+CREATE VIEW KronoloskiPregledUtakmica AS
 SELECT 
     Utakmica.ID_utakmice,
     Utakmica.datum_vrijeme,
     Utakmica.faza,
     Utakmica.broj_golova,
-    TimUtakmica.domaci,
-    TimUtakmica.gost
+    Organizacija.ime AS organizacija
 FROM Utakmica
-JOIN TimUtakmica ON Utakmica.ID_utakmice = TimUtakmica.ID_utakmice
-WHERE TimUtakmica.ID_tima = 'TIM00000001'
-  AND Utakmica.faza = 'Quarterfinal';
+JOIN Organizacija ON Utakmica.ID_organizacije = Organizacija.ID_organizacije
+ORDER BY Utakmica.datum_vrijeme;
+
+--Popis svih igrača koji su igrali za određenu momčad tijekom sezone
+
+CREATE VIEW IgraciMomcadiTijekomSezone AS
+SELECT 
+    Tim.naziv AS naziv_tima,
+    Igrac.ime,
+    Igrac.prezime,
+    TimIgrac.datum_pocetka,
+    TimIgrac.datum_zavrsetka
+FROM Tim
+JOIN TimIgrac ON Tim.ID_tima = TimIgrac.ID_tima
+JOIN Igrac ON TimIgrac.ID_igraca = Igrac.ID_igraca
+WHERE TimIgrac.datum_zavrsetka <= '2022-01-01' OR TimIgrac.datum_zavrsetka IS NULL
+
+
+
+--Popis igrača koji su igrali na pojedinoj utakmici
+CREATE VIEW IgraciNaUtakmici AS
+SELECT 
+    Utakmica.ID_utakmice,
+    Igrac.ime,
+    Igrac.prezime,
+    IgracUtakmica.br_golova,
+    IgracUtakmica.br_u_okvir,
+    IgracUtakmica.br_prema_golu,
+    IgracUtakmica.br_obrana,
+    IgracUtakmica.br_prekrsaja,
+    IgracUtakmica.br_zaleda,
+    IgracUtakmica.br_zutih,
+    IgracUtakmica.br_crvenih,
+    IgracUtakmica.vrijeme_ulaska,
+    IgracUtakmica.vrijeme_izlaska
+FROM IgracUtakmica
+JOIN Igrac ON IgracUtakmica.ID_igraca = Igrac.ID_igraca
+JOIN Utakmica ON IgracUtakmica.ID_utakmice = Utakmica.ID_utakmice;
+
+-- Izvještaj o rezultatima svih utakmica koje je određena momčad odigrala u pojedinoj fazi natjecanja
+
+CREATE VIEW RezultatiUtakmicaMomcadiUFazi AS
+SELECT 
+    Tim.naziv AS naziv_tima,
+    Utakmica.ID_utakmice,
+    Utakmica.datum_vrijeme,
+    Utakmica.faza,
+    Utakmica.broj_golova
+FROM Tim
+JOIN TimUtakmica ON Tim.ID_tima = TimUtakmica.ID_tima
+JOIN Utakmica ON TimUtakmica.ID_utakmice = Utakmica.ID_utakmice
+WHERE Utakmica.faza = 'SPECIFICNA_FAZA';
+
 
 
 --Izvještaj o ulascima i izlascima igrača na pojedinoj utakmici
-
+CREATE VIEW UlaziIzlaziIgracaNaUtakmici AS
 SELECT 
-    Igrac.ID_igraca,
+    Utakmica.ID_utakmice,
     Igrac.ime,
     Igrac.prezime,
     IgracUtakmica.vrijeme_ulaska,
     IgracUtakmica.vrijeme_izlaska
-FROM Igrac
-JOIN IgracUtakmica ON Igrac.ID_igraca = IgracUtakmica.ID_igraca
-WHERE IgracUtakmica.ID_utakmice = 'MAT00000001';
+FROM IgracUtakmica
+JOIN Igrac ON IgracUtakmica.ID_igraca = Igrac.ID_igraca
+JOIN Utakmica ON IgracUtakmica.ID_utakmice = Utakmica.ID_utakmice;
 
 
 --Izvještaj o prekršajima suđenim na pojedinoj utakmici
 
+CREATE VIEW PrekrsajiNaUtakmici AS
 SELECT 
-    Igrac.ID_igraca,
+    Utakmica.ID_utakmice,
     Igrac.ime,
     Igrac.prezime,
     IgracUtakmica.br_prekrsaja
-FROM Igrac
-JOIN IgracUtakmica ON Igrac.ID_igraca = IgracUtakmica.ID_igraca
-WHERE IgracUtakmica.ID_utakmice = 'SPECIFICNI_ID_UTAKMICE';
-
+FROM IgracUtakmica
+JOIN Igrac ON IgracUtakmica.ID_igraca = Igrac.ID_igraca
+JOIN Utakmica ON IgracUtakmica.ID_utakmice = Utakmica.ID_utakmice;
 
 --Izvještaj o podijeljenim žutim i crvenim kartonima na pojedinoj utakmici
 
+CREATE VIEW KartoniNaUtakmici AS
 SELECT 
-    Igrac.ID_igraca,
+    Utakmica.ID_utakmice,
     Igrac.ime,
     Igrac.prezime,
     IgracUtakmica.br_zutih,
     IgracUtakmica.br_crvenih
-FROM Igrac
-JOIN IgracUtakmica ON Igrac.ID_igraca = IgracUtakmica.ID_igraca
-WHERE IgracUtakmica.ID_utakmice = 'SPECIFICNI_ID_UTAKMICE';
+FROM IgracUtakmica
+JOIN Igrac ON IgracUtakmica.ID_igraca = Igrac.ID_igraca
+JOIN Utakmica ON IgracUtakmica.ID_utakmice = Utakmica.ID_utakmice;
 
 
 --Ukupna statistika neke momčadi na pojedinoj utakmici
 
+CREATE VIEW StatistikaMomcadiNaUtakmici AS
 SELECT 
+    Tim.naziv AS naziv_tima,
+    Utakmica.ID_utakmice,
     SUM(IgracUtakmica.br_golova) AS broj_golova,
     SUM(IgracUtakmica.br_u_okvir) AS broj_udaraca_u_okvir,
     SUM(IgracUtakmica.br_prema_golu) AS broj_udaraca_prema_golu,
@@ -1088,15 +1239,24 @@ SELECT
     SUM(IgracUtakmica.br_zaleda) AS broj_zaleda,
     SUM(IgracUtakmica.br_zutih) AS broj_zutih,
     SUM(IgracUtakmica.br_crvenih) AS broj_crvenih
-FROM IgracUtakmica
-JOIN TimIgrac ON IgracUtakmica.ID_igraca = TimIgrac.ID_igraca
-WHERE TimIgrac.ID_tima = 'SPECIFICNI_ID_TIMA'
-  AND IgracUtakmica.ID_utakmice = 'SPECIFICNI_ID_UTAKMICE';
+FROM Tim
+JOIN TimUtakmica ON Tim.ID_tima = TimUtakmica.ID_tima
+JOIN Utakmica ON TimUtakmica.ID_utakmice = Utakmica.ID_utakmice
+JOIN IgracUtakmica ON Utakmica.ID_utakmice = IgracUtakmica.ID_utakmice
+JOIN TimIgrac ON Tim.ID_tima = TimIgrac.ID_tima
+WHERE TimUtakmica.ID_utakmice = 'MAT00000001' 
+    AND TimIgrac.ID_igraca = IgracUtakmica.ID_igraca
+    AND TimIgrac.ID_tima = 'TIM00000002'
+GROUP BY Tim.naziv, Utakmica.ID_utakmice;
+
 
 
 --Statistika određenog igrača na pojedinoj utakmici
-
+CREATE VIEW StatistikaIgracaNaUtakmici AS
 SELECT 
+    Igrac.ime,
+    Igrac.prezime,
+    IgracUtakmica.ID_utakmice,
     IgracUtakmica.br_golova,
     IgracUtakmica.br_u_okvir,
     IgracUtakmica.br_prema_golu,
@@ -1106,11 +1266,14 @@ SELECT
     IgracUtakmica.br_zutih,
     IgracUtakmica.br_crvenih
 FROM IgracUtakmica
+JOIN Igrac ON IgracUtakmica.ID_igraca = Igrac.ID_igraca
 WHERE IgracUtakmica.ID_igraca = 'SPECIFICNI_ID_IGRACA'
   AND IgracUtakmica.ID_utakmice = 'SPECIFICNI_ID_UTAKMICE';
 
---Prosječna statistika učinka određenog igrača u cijeloj sezoni te ukupno vrijeme koje je proveo u igri
 
+-- Prosječna statistika učinka određenog igrača u cijeloj sezoni te ukupno vrijeme koje je proveo u igri
+
+CREATE VIEW ProsjecnaStatistikaIgracaSezona AS
 SELECT 
     Igrac.ime,
     Igrac.prezime,
@@ -1121,29 +1284,4 @@ SELECT
     AVG(IgracUtakmica.br_prekrsaja) AS prosjecni_broj_prekrsaja,
     AVG(IgracUtakmica.br_zaleda) AS prosjecni_broj_zaleda,
     AVG(IgracUtakmica.br_zutih) AS prosjecni_broj_zutih,
-    AVG(IgracUtakmica.br_crvenih) AS prosjecni_broj_crvenih,
-    SUM(EXTRACT(EPOCH FROM (IgracUtakmica.vrijeme_izlaska - IgracUtakmica.vrijeme_ulaska)) / 60) AS ukupno_vrijeme_u_igri_min
-FROM IgracUtakmica
-JOIN Igrac ON IgracUtakmica.ID_igraca = Igrac.ID_igraca
-WHERE IgracUtakmica.ID_igraca = 'PLR00000039'
-  AND IgracUtakmica.ID_utakmice IN (
-      SELECT ID_utakmice
-      FROM Utakmica
-      WHERE datum_vrijeme BETWEEN '2001-1-1' AND '2022-1-1'
-  )
-GROUP BY Igrac.ime, Igrac.prezime;
-
-
-
---Pregled rezultata svih odigranih utakmica
-
-SELECT 
-    Utakmica.ID_utakmice,
-    Utakmica.datum_vrijeme,
-    Utakmica.faza,
-    Utakmica.broj_golova,
-    Organizacija.ime AS organizacija_ime
-FROM Utakmica
-JOIN Organizacija ON Utakmica.ID_organizacije = Organizacija.ID_organizacije
-ORDER BY Utakmica.datum_vrijeme ASC;
-  
+    AVG(IgracUtakmica.br_crvenih) AS pros
